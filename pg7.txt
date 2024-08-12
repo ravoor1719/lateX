@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{subcaption}
+\usepackage{subfigure}
+\begin{document}
+\begin{figure}[h]
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=0.9\linewidth,height=6cm]{vtu.jpeg}
+\caption{VTU Logo}
+\label{fig:subim1}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=0.9\linewidth,height=6cm]{logoCMRIT.png}
+\caption{CMRIT Logo}
+\label{fig:subim2}
+\end{subfigure}
+\caption{Logos of Institutions}
+\label{fig:image2}
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=0.9\linewidth,height=7cm]{cmrit.jpeg}
+\caption{CMRIT College}
+\label{fig:subim3}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[width=0.9\linewidth,height=6cm]{download.jpeg}
+\caption{CMRIT}
+\label{fig:subim4}
+\end{subfigure}
+\caption{Images of CMRIT College}
+\label{fig:image2}
+\end{figure}
+\end{document}

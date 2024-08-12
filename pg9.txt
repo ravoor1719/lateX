@@ -1,0 +1,59 @@
+\documentclass{article}
+\begin{document}
+\section{Introduction}
+LATEX is a document preparation system for the TEX typesetting program. It enables you to produce publication-quality output with great accuracy and consistency. LATEX
+works on any computer and produces industry-standard PDF or PS documents.\cite{alanazi2021boosting}
+It is available both in free (open-source) and commercial implementations. LATEX can be used for any kind of document, but it is especially suited to those with a complex structure, repetitive formatting, or notations like mathematics1
+;\cite{nugroho2019skins}
+technical stability, dimensional accuracy, or a persistent and non-proprietary file
+format are needed: \cite{thakur2020lung} Install the free software from www.tug.org or buy a commercially-supported version from one of the vendors
+Leave a blank line between paragraphs as you
+type. To LATEX, this means ‘start a new paragraph’, not ‘leave a blank line’. You can control spacing and indentation by setting \cite{samhitha2020prediction}
+and \parindent with the \setlength command as in the previous example, or with the parskip package.
+I used LaTeX to layout my report, as it provides beautiful mathematics and a powerful way of handling references. Along the way I learned quite a lot about using it effectively, which might be of help to other people writing a thesis, so hence this page.\cite{rahman2023multiclass}
+
+I found a lot by Googling and reading tutorials,\cite{abcs} and the the compulsory\cite{cmritlibraray} read for anyone starting with LaTeX \cite{sowmya}is The Not So Short\cite{xyz} Introduction to LaTeX\cite{jrfrhijr}
+\bibliographystyle{unsrt}
+\footnotesize{\bibliography{References}} References.bib @book{latex2e,
+author = {Leslie Lamport}, year =
+{1994}, title = {{\LaTeX}: a Document Preparation System}, publisher = {Addison Wesley}, address
+=
+{Massachusetts}, edition
+= {2}
+}
+ 
+@article{knuth:
+
+1984,
+title={Literate Programming}, author={Donald
+E. Knuth}, journal={The Computer Journal}, volume={27}, number={2}, pages={97-- 111},
+year={1984},
+publisher={Oxford University Press}
+}
+@inproceedings{lesk:1977,
+title={Computer Typesetting of Technical Journals on
+{UNIX}}, author={Michael Lesk andBrian Kernighan}, booktitle={Proceedings of American Federation of
+Information Processing Societies:
+1977 National Computer Conference}, pages={879--888}, year={1977}, address={Dallas, Texas}
+}
+@conference{vyshali,
+title={CM-AODV: An efficient usage of network bandwidth in AODV protocol}, author={Ashwini, HK and KP, Vyshali Rao andGinimav, Ishwari},
+booktitle={2018 International Conferenceon Design Innovations for 3Cs Compute Communicate Control (ICDI3C)}, pages={111--114},
+year={2018}, organization={IEEE}
+}
+@book{texbook, author =
+{Donald E. Knuth}, year =
+
+{1986}, title = {The
+{\TeX} Book}, publisher =
+{Addison-Wesley Professional}
+}
+@book{latex:companion, author
+= {Frank Mittelbach and MichelGossens and Johannes Braams
+
+and David Carlisle and Chris Rowley}, year =
+{2004}, title =
+{The {\LaTeX} Companion}, publisher =
+{Addison-Wesley Professional}, edition =
+{2}}
+\end{document}

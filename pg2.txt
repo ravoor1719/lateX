@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{lipsum} % for random text generation
+\usepackage{fancyhdr} % for header and footer
+\pagestyle{fancy} % overwriting default page style
+\title{Create a simple document with 2 sections, header and footer}
+\fancyhf{} % clear default header and footer
+\fancyhead[L]{Create a simple document with 2 sections, header and footer} %adds header content at left side
+\fancyfoot[L]{CMRIT, Bangalore} % adds footer content to left side
+\fancyfoot[R]{\thepage} % adds page number at the right side
+\begin{document}
+\maketitle % adds the tile, header, footer to pagee \section{Abstract} % creates one subsection Section One data goes here.
+\lipsum[1] % fills content with randomly generated text
+\newpage % creates new page
+\section{Summary}
+Section Two data goes here.
+\lipsum[1-2]
+\end{document}

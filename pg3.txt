@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\begin{document}
+\begin{titlepage}
+\newgeometry{top=0.5in,bottom=0.5in,right=0.5in,left=0.5in}
+\begin{tikzpicture}[remember picture,overlay]
+\draw[line width=2pt]($(current page.north west)+(1in,-0.5in)$) rectangle ($(currentpage.south east)+(-
+0.5in,0.5in)$)
+\end{tikzpicture}
+\begin{center}
+\includegraphics[width=0.4 \linewidth]{cmrit.png}\\
+\vspace{0.3cm}
+\scriptsize{\textbf{\textcolor{blue}{An institution affiliated to VTU, Belgaum, approved byAICTE}}}\\ \vspace{0.2cm}
+\scriptsize{\textbf{\textcolor{blue}{Belagavi, Karnataka 590018}}}\\
+\vspace{0.2cm}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.15 \textwidth]{vtu.jpeg}
+\end{figure}
+\vspace{0.2cm}
+\large \textbf{A Project on}\\
+\vspace{0.2cm}
+ 
+\large \textbf{MINI PROJECT}\\
+\vspace{0.2cm}
+\small\textit{Submitted in partial fulfillment of the requirement for the award of the degree of}\\ \vspace{0.2cm}
+\large \textbf{Bachelor of Engineering}\\
+\vspace{0.2cm}
+\large \textbf{in}\\
+\vspace{0.2cm}
+\large \textbf{Information Science and Engineering}\\
+\vspace{0.2cm}
+\large \textbf{by}\\
+\setlength{\tabcolsep}{4cm}
+\begin{tabular}{c c }\vspace{0.2cm} Bhoomika.P& 1CR22IS033\\\vspace{0.2cm} Lingraj Malipatil&1CR22IS076\\\vspace{0.2cm} Harini.R&1CR22IS060\\\vspace{0.2cm}
+\end{tabular}\\
+\vspace{1cm}
+\small\textbf{Under the Guidance of}\\
+\vspace{0.1cm}
+\large\textbf{Mrs. Varsha Jituri }\\
+\vspace{0.1cm}
+\small\textbf{Assistant Professor}\\
+\vspace{0.1cm}
+\small\textbf{Department of Information Science and Engineering}\\
+\vspace{0.1cm}
+\large\textbf{CMRIT}
+\end{center}
+\end{titlepage}
+\end{document}

@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{multirow}
+\begin{document}
+\title{Experiment No: 5}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|lll|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{S. No}} &
+\multicolumn{1}{c|}{\multirow{2}{*}{USN}} &
+\multicolumn{1}{c|}{\multirow{2}{*}{Student Name}} &
+\multicolumn{3}{c|}{Marks} \\
+\cline{4-6}
+\multicolumn{1}{|c|}{}&
+\multicolumn{1}{c|}{}&
+\multicolumn{1}{c|}{} &
+\multicolumn{1}{c|}{Subject 1} &
+\multicolumn{1}{c|}{Subject 2} &
+\multicolumn{1}{c|}{Subject 3} \\
+\hline 1 & 1CR22IS176 & Sanjana &
+\multicolumn{1}{l|}{89} &
+\multicolumn{1}{l|}{60} &90 \\
+\hline 2 & 1CR22IS159 & Srushti &
+\multicolumn{1}{l|}{78} &
+\multicolumn{1}{l|}{45} & 98 \\
+\hline 3 & ICR22IS171 & & Mahathi
+\multicolumn{1}{l|}{67}&
+\multicolumn{1}{l|}{55} & 59 \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
